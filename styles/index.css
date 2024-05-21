@@ -31,15 +31,15 @@ body {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
+    border-radius: 10px;
     text-decoration: none;
-    transition: bacground-color 0.4s ease;
-    transition: transform 0.3s ease-in-out;
+    transition: background-color 0.4s ease, transform 0.4s ease-in-out;
 }
 
 .navigation a:hover {
     background-color: #ddd;
     color: black;
-    transform: scale(.9);
+    transform: scale(0.9);
 }
 
 /* Style pour le pied de page */
@@ -49,7 +49,7 @@ body {
     text-align: center;
     position: absolute;
     width: 100%;
-    padding: 14px 0
+    padding: 14px 0;
 }
 
 
@@ -170,4 +170,17 @@ body {
 .our-advantages li {
     font-size: 1.2em;
     margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 5%;
+    }
+    .banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .company-info {
+        max-width: 100%;
+    }
 }
