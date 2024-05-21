@@ -42,6 +42,55 @@ body {
     transform: scale(0.9);
 }
 
+/* Cacher le checkbox par défaut */
+#menu-toggle {
+    display: none;
+}
+
+/* Style pour le bouton de menu */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+/* Styles pour les écrans de petite taille */
+@media (max-width: 768px) {
+    .container {
+        margin: 0 5%;
+    }
+
+    /* Afficher le bouton de menu */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Cacher les liens de navigation par défaut */
+    .navigation a {
+        display: none;
+        width: 100%;
+        text-align: left;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* Afficher les liens de navigation lorsque le menu est activé */
+    #menu-toggle:checked ~ a {
+        display: block;
+    }
+
+    /* Réorganiser la bannière pour les écrans plus petits */
+    .banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .company-info {
+        max-width: 100%;
+    }
+}
+
 /* Style pour le pied de page */
 .footer {
     background-color: #688C7C;
@@ -51,7 +100,6 @@ body {
     width: 100%;
     padding: 14px 0;
 }
-
 
 .banner {
     background-color: #333;
@@ -81,7 +129,6 @@ body {
 .company-info {
     max-width: 50%;
     text-align: left;
-    
 }
 
 .company-info h1 {
@@ -109,21 +156,20 @@ body {
 
 @keyframes changeColor {
     0% {
-      background-color: white;
+        background-color: white;
     }
     50% {
-      background-color: wheat;
+        background-color: wheat;
     }
     100% {
-      background-color: whitesmoke;
+        background-color: whitesmoke;
     }
-  }
+}
 
 .company-info a:hover {
     background-color: #ddd;
     transform: scale(1.1);
 }
-
 
 .about-us {
     background-color: #f5f5f5;
@@ -170,17 +216,4 @@ body {
 .our-advantages li {
     font-size: 1.2em;
     margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-    .container {
-        margin: 0 5%;
-    }
-    .banner-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    .company-info {
-        max-width: 100%;
-    }
 }
