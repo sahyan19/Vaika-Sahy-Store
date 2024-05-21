@@ -1,0 +1,63 @@
+.catalogue {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label,
+.filters select {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.filters select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.parts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.parts-table th, .parts-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.parts-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.parts-table td {
+    background-color: #f9f9f9;
+}
+
+.part-details {
+    margin-top: 20px;
+}
+
+.part-details h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.part-details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
