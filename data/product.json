@@ -1,5 +1,4 @@
-{
-  "pieces": [
+[
     {
       "image_src": "../images/plaquette_frein.png",
       "nom": "Plaquette de frein",
@@ -48,5 +47,5 @@
       "description": "Démarreur de voiture pas cher",
       "prix": "$180.50"
     }
-  ]
-}
+]
+
