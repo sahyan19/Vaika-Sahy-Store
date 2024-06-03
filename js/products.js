@@ -1,12 +1,14 @@
-let productCard = document.getElementById("product-card");
+let productCard = document.getElementById("product-cards");
 
-fetch("../data/product.json").then((response) => {
+fetch("../../data/product.json")
+  .then((response) => {
     return response.json();
-}).then((pieces) => {
-    for(let piece of pieces){
-        productCard.innerHTML = `
-
-        <div class="product-card" id="product-card">
+  })
+  .then((pieces) => {
+    for (let piece of pieces) {
+      let contenair = document.createElement("div");
+      contenair.className = "product-card";
+      contenair.innerHTML = `
             <img src=${piece.image_src} alt=${piece.nom}>
             <div class="card-content" id="card-content">
                 <h3>${piece.nom}</h3>
@@ -14,7 +16,7 @@ fetch("../data/product.json").then((response) => {
                 <span class="price" id="price">$19.99</span>
                 <button>Ajouter au panier</button>
             </div>
-        </div> 
-        `
+        `;
+      productCard.appendChild(contenair);
     }
-})
+  });
