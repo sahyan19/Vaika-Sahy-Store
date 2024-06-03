@@ -1,4 +1,4 @@
-let productCard = document.getElementById("product-cards");
+let productCards = document.getElementById("product-cards");
 
 fetch("../../data/product.json")
   .then((response) => {
@@ -13,10 +13,10 @@ fetch("../../data/product.json")
             <div class="card-content" id="card-content">
                 <h3>${piece.nom}</h3>
                 <p>${piece.description}</p>
-                <span class="price" id="price">$19.99</span>
+                <span class="price" id="price">${piece.prix}</span>
                 <button>Ajouter au panier</button>
             </div>
         `;
-      productCard.appendChild(contenair);
+      productCards.appendChild(contenair);
     }
   });
