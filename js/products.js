@@ -13,8 +13,8 @@ fetch("../../data/product.json")
             <div class="card-content" id="card-content">
                 <h3>${piece.nom}</h3>
                 <p>${piece.description}</p>
-                <span class="price" id="price">${piece.prix}</span>
-                <button>Ajouter au panier</button>
+                <span class="price" id="price">$${piece.prix}</span>
+                <button id="btn"><a href="../pannier/pannier.html">Ajouter au panier</a></button>
             </div>
         `;
       productCards.appendChild(contenair);

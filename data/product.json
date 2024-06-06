@@ -3,48 +3,48 @@
         "image_src": "../../images/plaquette_frein.png",
         "nom": "Plaquette de frein",
         "description": "Plaquette de frein neuve",
-        "prix": "$29.99"
+        "prix": "29.99"
     },
     {
         "image_src": "../../images/pneu.png",
         "nom": "Pneu",
         "description": "Pneu neuf",
-        "prix": "$19.99"
+        "prix": "19.99"
     },
     {
         "image_src": "../../images/jante.png",
         "nom": "Jante",
         "description": "Jantes Rays Porches GT3 R",
-        "prix": "$98.99"
+        "prix": "98.99"
     },
     {
         "image_src": "../../images/parechoc.png",
         "nom": "Pare-choc",
         "description": "Pare-choc arrière pour Mercedes Classe C",
-        "prix": "$400"
+        "prix": "400"
     },
     {
         "image_src": "../../images/essuie-glace.png",
         "nom": "Essuie-glace",
         "description": "Balai d'essuie-glace pour tracteur routier",
-        "prix": "$10.50"
+        "prix": "10.50"
     },
     {
         "image_src": "../../images/filtre_gasoil.png",
         "nom": "Filtre à gasoil",
         "description": "Filtre à gasoil neuf",
-        "prix": "$65.50"
+        "prix": "65.50"
     },
     {
         "image_src": "../../images/bougie_voiture.jpg",
         "nom": "Bougie",
         "description": "Bougie de voiture iridium et platinum",
-        "prix": "$30"
+        "prix": "30"
     },
     {
         "image_src": "../../images/demareur.png",
         "nom": "Démarreur",
         "description": "Démarreur de voiture pas cher",
-        "prix": "$180.50"
+        "prix": "180.50"
     }
 ]
