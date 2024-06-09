@@ -54,6 +54,12 @@ body {
     color: #f2f2f2;
     cursor: pointer;
 }
+/* cart-icon */
+#cart-icon {
+    width: 100%;
+    height: 30px;
+}
+
 
 /* Styles pour les écrans de petite taille */
 @media (max-width: 768px) {

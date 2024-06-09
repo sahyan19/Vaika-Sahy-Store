@@ -33,7 +33,7 @@ function afficherPieces(pieces) {
     let trElement = document.createElement("tr");
     trElement.innerHTML = `
       <td>${piece.nom}</td>
-      <td>${piece.prix}</td>
+      <td>$${piece.prix}</td>
     `;
     table.appendChild(trElement);
   }
