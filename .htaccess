@@ -1,1 +1,7 @@
 ErrorDocument 404 /errors/404.html
+
+
+AuthType Basic
+AuthName "Zone protégée"
+AuthUserFile /var/www/vaika-sahy-store.mg/.htpasswd
+Require valid-user
