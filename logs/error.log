@@ -48,3 +48,5 @@
 [Sun Aug 31 20:12:20.509104 2025] [ssl:warn] [pid 31903:tid 31903] AH01906: vaika-sahy-store.mg:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Sun Aug 31 20:12:37.871483 2025] [core:alert] [pid 104338:tid 104338] [client 127.0.0.1:41090] /var/www/vaika-sahy-store.mg/.htaccess: Invalid command 'RequireValidUser', perhaps misspelled or defined by a module not included in the server configuration
 [Sun Aug 31 20:17:47.139907 2025] [ssl:warn] [pid 31903:tid 31903] AH01906: vaika-sahy-store.mg:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Sep 01 09:42:48.152040 2025] [ssl:warn] [pid 38119:tid 38119] AH01906: vaika-sahy-store.mg:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Sep 01 09:42:48.193163 2025] [ssl:warn] [pid 38120:tid 38120] AH01906: vaika-sahy-store.mg:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
